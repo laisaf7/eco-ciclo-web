@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EcoCiclo · Protótipo</title>
+  <meta name="description" content="Protótipo navegável do EcoCiclo: recicle, ganhe EcoMoedas e gaste no comércio do bairro.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="layout">
+    <aside class="guia">
+      <p class="selo">Protótipo navegável</p>
+      <h1>EcoCiclo</h1>
+      <p>Seu reciclável vira moeda para gastar no bairro.</p>
+      <h2>Jornada sugerida</h2>
+      <ol>
+        <li>Entre com o usuário de teste.</li>
+        <li>No <b>Mapa</b>, escolha um ecoponto e toque em <b>Vou entregar aqui</b>.</li>
+        <li>Em <b>Validar</b>, leia o QR Code (câmera ou simulação).</li>
+        <li>Em <b>Lojas</b>, escolha um comércio e gere um voucher.</li>
+        <li>Toque em <b>Concluir jornada</b> para ver o resumo.</li>
+      </ol>
+      <p class="nota">Dados de demonstração. Nada é enviado a um servidor.</p>
+      <button class="btn contorno" data-acao="recomecar">Recomeçar demonstração</button>
+    </aside>
+
+    <div class="celular">
+      <header class="barra">
+        <a class="icone-btn" id="voltar" href="#inicio" aria-label="Voltar" hidden></a>
+        <h1 id="titulo">EcoCiclo</h1>
+        <button class="icone-btn" id="atualizar" aria-label="Atualizar dados" hidden></button>
+        <button class="icone-btn" id="sair" aria-label="Sair da conta" hidden></button>
+      </header>
+      <main id="tela" tabindex="-1"></main>
+      <nav class="abas" id="abas" aria-label="Menu principal"></nav>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
