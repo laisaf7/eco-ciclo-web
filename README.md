@@ -2,6 +2,8 @@
 
 **A moeda digital que transforma resíduos em desenvolvimento local.**
 
+**Acesse o protótipo:** https://eco-ciclo-web.vercel.app/
+
 O EcoCiclo recompensa quem entrega recicláveis em ecopontos e cooperativas parceiras com **EcoMoedas**,
 que só podem ser gastas nos pequenos comércios do próprio bairro. O reciclável sai do lixo, vira poder
 de compra para o morador e volta como receita para o comércio local.
@@ -56,12 +58,14 @@ OpenStreetMap; QR Code do voucher com [qrcodejs](https://github.com/davidshimjs/
 | `style.css` | Visual, com as mesmas cores do app Android |
 | `app.js` | Telas, navegação, dados e regras de demonstração |
 | `config.js` | Chave opcional do MapTiler (vazia = OpenStreetMap) |
+| `favicon.svg` | Ícone da aba, o mesmo desenho do ícone do app |
 
 ## Rodar e publicar
 
 - **Localmente:** abra `index.html` no navegador. No Chrome, o OpenStreetMap bloqueia o mapa em páginas
   abertas direto do arquivo; rode um servidor local (`npx serve .`) ou use o link publicado.
-- **Vercel:** importe este repositório como projeto sem framework e sem comando de build.
+- **Vercel:** publicado em https://eco-ciclo-web.vercel.app/, que atualiza sozinho a cada push na `main`.
+  Para outro projeto, importe este repositório sem framework e sem comando de build.
 
 ## Projetos relacionados
 

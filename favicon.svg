@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="18 18 72 72">
+  <!-- Mesmo desenho do ícone do app (ic_launcher), recortado em círculo -->
+  <clipPath id="c"><circle cx="54" cy="54" r="36"/></clipPath>
+  <g clip-path="url(#c)">
+    <rect x="18" y="18" width="72" height="72" fill="#1B6B45"/>
+    <path fill="#FFC857" d="M54,30a24,24 0,1 0,0.01 0z"/>
+    <path fill="#1B6B45" d="M42,66C42,50 52,42 68,42C68,58 60,68 46,68L58,52L42,66Z"/>
+  </g>
+</svg>
